@@ -44,10 +44,30 @@
 }
 
 #ball{
-  background-image: url(../img/ball.png);
-  width: auto;
-  height: auto;
+  background-image: url(img/ball.png);
+  width: 24px;
+  height: 24px;
   position: absolute;
-  margin-left: 200px;
-  margin-top: 200px;
+  margin-left: 105px;
+  margin-top: 150px;
+  z-index: 1000;
+}
+
+#ball2{
+  background-image: url(img/ball2.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 70px;
+  z-index: 1000;
+}
+#ball3{
+  background-image: url(img/ball3.png);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin-left: 845px;
+  margin-top: 335px;
+  z-index: 1000;
 }
